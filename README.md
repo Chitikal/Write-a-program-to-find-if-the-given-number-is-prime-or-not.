@@ -1,5 +1,5 @@
 num = int(input("enter a number: "))
-# input: 23
+
 flag = False
 if num > 1:
     for i in range(2, num):
@@ -11,4 +11,3 @@ if flag:
     print(num, "is not a prime number")
 else:
     print(num, "is a prime number")
-# 23 is a prime number
